@@ -13,6 +13,7 @@ public class IterationOnHashMap {
         hashMap.put("Nepal", 500);
 
         //Iterate
+
         Set<String> keySet = hashMap.keySet();
         System.out.println(keySet);
         for (String key : keySet) {
